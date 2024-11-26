@@ -8,8 +8,7 @@ import matplotlib.pyplot as plt
 #Load the Dataset
 iris = datasets.load_iris ()
 #convert the dataset into a pandas dataframe
-df = pd.DataFrame(iris['data'], columns =
-iris['feature_names'])
+df = pd.DataFrame(iris['data'], columns = iris['feature_names'])
 #display the head (first 5 rows) of thedataset
 print(df.head ())
 #Standardize the features
